@@ -1,11 +1,11 @@
 {
-  "name": "Site",
+  "name": "site",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run build:rss && next build",
     "build:rss": "node ./api/rss.js",
     "start": "next start"
   },
@@ -27,7 +27,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
-    "react-markdown": "^6.0.0",
+    "react-markdown": "^5.0.3",
     "react-syntax-highlighter": "^15.4.3"
   }
 }

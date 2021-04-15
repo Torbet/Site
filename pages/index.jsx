@@ -5,7 +5,7 @@ import Posts from '../components/posts'
 
 export default function Landing(props) {
     return(
-        <Default>
+        <Default title='Guy Torbet'>
             <Posts allPosts={props.posts}/>
         </Default>
     )

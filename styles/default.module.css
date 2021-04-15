@@ -124,8 +124,12 @@
 
 
 #rightGrad {
-    width: 100%;
+    width: 101%;
     height: 100vh;
+
+    position: absolute;
+    left: 0;
+    overflow: hidden;
     --gradient-color-1: #ef008f; 
     --gradient-color-2: #6ec3f4; 
     --gradient-color-3: #7038ff;  

@@ -11,8 +11,9 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 #title {
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: bolder;
+    margin: 0.5em 0;
 }
 #date {
     color: #777;
@@ -27,11 +28,27 @@
 }
 
 #post p {
-    font-size: 1.2em;
+    font-size: 1.3rem;
     margin: 1em 0;
 }
 
+#post li {
+    margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    list-style-position: inside;
+
+    
+}
+
+#post blockquote {
+    border-left: 0.5em solid rgba(0, 0, 0, 0.15);
+    padding-left: 1em;
+    color: #292929;
+}
+
 #post h2 {
+    font-size: 1.75em;
 	background: linear-gradient(-45deg, #ef008f, #6ec3f4, #7038ff, #ffba27);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -61,9 +78,8 @@
 #back {
     position: fixed;
     cursor: pointer;
-    width: 10em;
-    height: 10em;
-
+    width: 7em;
+    height: 7em;
 
     --gradient-color-1: #ef008f; 
     --gradient-color-2: #6ec3f4; 
@@ -71,13 +87,13 @@
     --gradient-color-4: #ffba27;
 
     transform: rotate(45deg);
-    top: -5em;
-    left: -5em;
+    top: -3.5em;
+    left: -3.5em;
 
 }
 #back:hover {
     opacity: 0.6;
 
-    top: -5.2em;
-    left: -5.2em;
+    top: -3.7em;
+    left: -3.7em;
 }
