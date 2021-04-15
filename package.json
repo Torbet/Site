@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run build:rss && next build",
+    "build": "next build",
     "build:rss": "node ./api/rss.js",
     "start": "next start"
   },
