@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Guy Torbet | Posts]]></title>
+        <description><![CDATA[Guy Torbet | Posts]]></description>
+        <link>https://torbet.co/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 12 Mar 2021 15:42:44 GMT</lastBuildDate>
+        <atom:link href="https://torbet.co/feed.xml" rel="self" type="application/rss+xml"/>
+        <language><![CDATA[en]]></language>
+        <managingEditor><![CDATA[Guy Torbet]]></managingEditor>
+        <webMaster><![CDATA[Guy Torbet]]></webMaster>
+        <item>
+            <title><![CDATA[How I Built My Site (with Perfect Lighthouse Score)]]></title>
+            <description><![CDATA[This is How I Built My Site, and achieved a Perfect Lighthouse Score. I rundown all the fudamental issues and how to solve them, aswell as how to optimise your page for Google.]]></description>
+            <link>https://torbet.co/posts/Build-This-Site</link>
+            <guid isPermaLink="false">Build-This-Site</guid>
+            <pubDate>Fri, 12 Mar 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Just Start]]></title>
+            <description><![CDATA[How to stop inactivity and just start what you want to do. The flywheel concept of getting things off the ground and the best and only time to start is now!]]></description>
+            <link>https://torbet.co/posts/Just-Start</link>
+            <guid isPermaLink="false">Just-Start</guid>
+            <pubDate>Fri, 19 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[MacBook T2 Chip Error Fix (69832, 69630, and 69624)]]></title>
+            <description><![CDATA[A summary of my experience when resetting a T2 chip MacBook, and how to resolve the errors - 69832, 69630 and 69624]]></description>
+            <link>https://torbet.co/posts/Mac-Error-fix</link>
+            <guid isPermaLink="false">Mac-Error-fix</guid>
+            <pubDate>Fri, 12 Feb 2021 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
