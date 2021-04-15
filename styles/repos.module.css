@@ -1,0 +1,32 @@
+.row {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1em 1em;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 1em;
+}
+
+.row:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.title {
+    width: 30%;
+    text-align: center;
+}
+.subTitle {
+    font-size: 1em;
+    color: #555555;
+
+    width: 30%;
+    text-align: center;
+}
+
+@media only screen and (min-width: 740px) {
+    .row {
+        padding: 1em 0;
+    }
+}

@@ -1,0 +1,62 @@
+* {
+    font-family: "Helvetica Neue";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.navItem {
+    color: #000;
+    text-decoration: none;
+    position: relative;
+
+    font-weight: bolder;
+}
+
+.navItem:before {
+    color: #000;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.navItem:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.gradText {
+	background: linear-gradient(-45deg, #ef008f, #6ec3f4, #7038ff, #ffba27);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

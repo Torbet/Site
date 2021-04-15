@@ -1,0 +1,33 @@
+{
+  "name": "Site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run build:rss && next build",
+    "build:rss": "node ./api/rss.js",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torbet/Site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Torbet/Site/issues"
+  },
+  "homepage": "https://github.com/Torbet/Site#readme",
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "next": "^10.1.3",
+    "raw-loader": "^4.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-markdown": "^6.0.0",
+    "react-syntax-highlighter": "^15.4.3"
+  }
+}

@@ -1,0 +1,83 @@
+#content {
+    max-width: 740px;
+
+    padding: 1em;
+    margin: auto;
+}
+#head {
+    text-align: center;
+    padding: 1em;
+    margin: 1em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#title {
+    font-size: 2em;
+    font-weight: bolder;
+}
+#date {
+    color: #777;
+    font-size: 1.2em;
+}
+#description {
+    font-weight: bold;
+}
+
+#post {
+    word-wrap: break-word;
+}
+
+#post p {
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+#post h2 {
+	background: linear-gradient(-45deg, #ef008f, #6ec3f4, #7038ff, #ffba27);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+    margin-top: 2em;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#back {
+    position: fixed;
+    cursor: pointer;
+    width: 10em;
+    height: 10em;
+
+
+    --gradient-color-1: #ef008f; 
+    --gradient-color-2: #6ec3f4; 
+    --gradient-color-3: #7038ff;  
+    --gradient-color-4: #ffba27;
+
+    transform: rotate(45deg);
+    top: -5em;
+    left: -5em;
+
+}
+#back:hover {
+    opacity: 0.6;
+
+    top: -5.2em;
+    left: -5.2em;
+}

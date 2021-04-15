@@ -1,0 +1,26 @@
+.post {
+    cursor: pointer;
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 1em 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 1em;
+}
+
+.post:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.date {
+    color: #777;
+}
+
+@media only screen and (min-width: 740px) {
+    .post {
+        flex-direction: row;
+    }
+}
