@@ -16,7 +16,7 @@
 #leftGrad {
     position: absolute;
     top: 0;
-    width: 100%;
+    width: calc(100% + 1px);
     height: 100%;
     --gradient-color-1: #ef008f; 
     --gradient-color-2: #6ec3f4; 
@@ -124,12 +124,11 @@
 
 
 #rightGrad {
-    width: 101%;
+    width: calc(100% + 1px);
     height: 100vh;
 
     position: absolute;
     left: 0;
-    overflow: hidden;
     --gradient-color-1: #ef008f; 
     --gradient-color-2: #6ec3f4; 
     --gradient-color-3: #7038ff;  
