@@ -42,18 +42,6 @@ pre * {
     transform: scaleX(1);
 }
 
-.gradText {
-	background: linear-gradient(-45deg, #ef008f, #6ec3f4, #7038ff, #ffba27);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-
-    background-clip: text;
-
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-}
 .gradBack {
 	background: linear-gradient(-45deg, #ef008f, #6ec3f4, #7038ff, #ffba27);
 	background-size: 400% 400%;
