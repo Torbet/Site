@@ -38,7 +38,7 @@ export default function Post(props) {
                 <canvas id={styles.back} onClick={() => { router.push("/") }}></canvas>
                 <div id={styles.head}>
                     <div id={styles.date}>{props.date}</div>
-                    <div id={styles.title} className="gradText">{props.title}</div>
+                    <div id={styles.title}>{props.title}</div>
                     <div id={styles.description}>{props.description}</div>
                 </div>
 
