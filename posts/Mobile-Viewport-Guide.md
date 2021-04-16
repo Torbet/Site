@@ -1,7 +1,7 @@
 ---
 title: A Guide To Mobile Viewports
 date: 16-04-2021
-description: A summary of my experience when resetting a T2 chip MacBook, and how to resolve the errors - 69832, 69630 and 69624
+description: How to make handling the viewport on mobile less awful, correctly fill the viewport, and get correct specific viewport sizes.
 ---
 
 I don't know if you've noticed, but using the vertical viewport on mobile is shit. Here's a quick guide on how to make them less awful.
@@ -21,9 +21,9 @@ Say you want a 100vh div, just to fill the space of the green arrow and nothing 
 }
 ```
 
-But what if you're on Android? or if you need a more specific viewport size? No fear, I can help you aswell!
+But what if you're on Android? or if you need a more specific viewport size? No fear, I can help with that aswell!
 
-First, get the value of the windows height, then take 1% of that. You can then set a CSS variable (I used —vh) using this value, like this:
+First, get the value of the windows height, then take 1% of that. You can then set a CSS variable (I used —vh) using this value:
 
 ```css
 let vh = window.innerHeight * 0.01;
@@ -50,3 +50,5 @@ window.addEventListener('resize', () => {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
   });
 ```
+
+I use this whenever I need to set an elements vh, it's consitent across desktop and mobile, and a real time saver!
