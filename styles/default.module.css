@@ -135,7 +135,6 @@
     --gradient-color-4: #ffba27;
 
     clip-path: polygon(0 0, 100% 0, 100% 64px, 0 64px);
-    transform: scaleX(-1);
 }
 
 @media only screen and (min-width: 740px) {

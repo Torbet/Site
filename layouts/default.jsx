@@ -6,6 +6,7 @@ import Head from 'next/head'
 
 import { useEffect } from "react"
 import { Gradient } from "../api/gradient"
+import { RightGradient } from "../api/rightGradient"
 
 import { FaGithub, FaTwitter, FaInstagram, FaInbox } from "react-icons/fa"
 
@@ -15,7 +16,7 @@ export default function Default(props) {
         var leftGrad = new Gradient();
         leftGrad.initGradient("#default_leftGrad__3GcSF");
 
-        var rightGrad = new Gradient();
+        var rightGrad = new RightGradient();
         rightGrad.initGradient("#default_rightGrad__2dqIv");
     })
 
