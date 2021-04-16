@@ -9,6 +9,12 @@
     text-rendering: optimizeLegibility;
 }
 
+pre * {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
 .navItem {
     color: #000;
     text-decoration: none;
