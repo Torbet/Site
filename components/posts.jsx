@@ -14,8 +14,8 @@ function Posts({ allPosts }) {
                 {allPosts.map(function (post, key) {
                     return (
                         <li onClick={() => { router.push(`/posts/${post.slug}`) }} key={key} className={styles.post}>
-                            <h3>{post.title}</h3>
-                            <h4 className={styles.date}>{formatDate(post.date)}</h4>
+                            <h2 className={styles.title}>{post.title}</h2>
+                            <h3 className={styles.date}>{formatDate(post.date)}</h3>
                         </li>
                     )
                 })}

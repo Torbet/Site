@@ -14,9 +14,13 @@
 .post:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
+.title {
+    font-size: 1.17em;
+}
 
 .date {
     color: #444;
+    font-size: 1em;
 }
 
 @media only screen and (min-width: 740px) {

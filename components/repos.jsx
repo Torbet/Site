@@ -31,9 +31,9 @@ export default function Repos(props) {
             <ul>
                 {arrayItems.map((row) => (
                         <li className={styles.row} onClick={() => { router.push(row.url) }} key={row.Title}>
-                            <h3 className={styles.title}>{row.Title}</h3>
-                            <h4 className={styles.subTitle}>{row.Description}</h4>
-                            <h4 className={styles.subTitle}>{row.Language}</h4>
+                            <h2 className={styles.title}>{row.Title}</h2>
+                            <h3 className={styles.subTitle}>{row.Description}</h3>
+                            <h3 className={styles.subTitle}>{row.Language}</h3>
                         </li>
                 ))}
             </ul>
