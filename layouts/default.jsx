@@ -23,6 +23,34 @@ export default function Default(props) {
     return (
         <main id={styles.main}>
 
+            <Head>
+                <title>{props.title}</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta charSet="utf-8" />
+                <meta name="description" content="A portfolio of Guy Torbet. Updating the progress of projects and summarising key information from what I read online - hopefully providing value." />
+                <meta property="og:title" content="Guy Torbet | Portfolio" />
+                <meta property="og:description" content="A portfolio of Guy Torbet. Updating the progress of projects and summarising key information from what I read online - hopefully providing value." />
+
+                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:site" content="@guytorbet" />
+                <meta name="twitter:title" content="Guy Torbet | Portfolio" />
+                <meta name="twitter:description" content="A portfolio of Guy Torbet. Updating the progress of projects and summarising key information from what I read online - hopefully providing value." />
+                <meta name="twitter:image" content="https://torbet.co/profile.jpg" />
+
+                <script type="application/ld+json">{`
+                    {
+                    "@context":"https://schema.org/",
+                    "@type":"Organization",
+                    "name":"Guy Torbet",
+                    "image":"https://torbet.co/favicon.ico",
+                    "logo":"https://torbet.co/favicon.ico",
+                    "url": "https://torbet.co"
+                    }
+                    `}
+                </script>
+
+            </Head>
+
             <section id={styles.left}>
                 <canvas id={styles.leftGrad}></canvas>
 
@@ -39,9 +67,6 @@ export default function Default(props) {
                     </div>
                 </div>
             </section>
-
-
-
 
             <section id={styles.right}>
                 <nav id={styles.nav}>
