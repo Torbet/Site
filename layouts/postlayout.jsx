@@ -4,6 +4,8 @@ import Head from 'next/head'
 import { useEffect } from "react"
 import { Gradient } from "../api/gradient"
 
+import Mail from "../components/mail"
+
 import { useRouter } from 'next/router'
 
 export default function Post(props) {
@@ -43,6 +45,8 @@ export default function Post(props) {
                 <div id={styles.post}>
                     {props.children}    
                 </div>
+                I also have an email newsletter, it's about a 2-5 minute read every week of high quality tech and productivity content, you can sign up to it here!
+                <Mail />
             </article>
         </main>
     )

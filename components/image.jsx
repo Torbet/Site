@@ -1,5 +1,5 @@
 import Image from 'next/image'
 
 export default function Img(props) {
-    return <Image {...props} width={740} height={"auto"} />
+    return <img {...props} style={{width: '100%', height: 'auto'}} />
   }

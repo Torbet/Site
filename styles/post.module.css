@@ -16,11 +16,14 @@
     margin: 0.5em 0;
 }
 #date {
-    color: #777;
+    color: #555;
     font-size: 1.2em;
+    font-weight: bold;
 }
 #description {
     font-weight: bold;
+    font-size: 1.2em;
+    color: #444;
 }
 
 #post {

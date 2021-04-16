@@ -8,6 +8,8 @@ import { useEffect } from "react"
 import { Gradient } from "../api/gradient"
 import { RightGradient } from "../api/rightGradient"
 
+import Mail from "../components/mail"
+
 import { FaGithub, FaTwitter, FaInstagram, FaInbox } from "react-icons/fa"
 
 export default function Default(props) {
@@ -59,6 +61,7 @@ export default function Default(props) {
                     <p className={styles.subHeading}>I'm a 17 year old Software Developer and Student from Scotland.</p>
                     <p className={styles.subHeading}>I read a lot online, and make a lot of projects; here I document and summarise the key ideas and insights from my experiences, and hopefully provide some value to you.</p>
                     <p className={styles.subHeading}>I also have an email newsletter, it's a 2-5 minute read every week of high quality tech and productivity content. There's also a <a href="/feed" className="navItem">RSS feed</a> if you're into that.</p>
+                    <Mail/>
                     <div id={styles.links}>
                         <Link href="https://github.com/torbet"><FaGithub className={styles.icon} /></Link>
                         <Link href="https://twitter.com/"><FaTwitter className={styles.icon} /></Link>
