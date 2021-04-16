@@ -47,6 +47,16 @@ pre * {
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
+.gradText {
+	background: linear-gradient(-45deg, #ef008f, #6ec3f4, #7038ff, #ffba27);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
 
 @keyframes gradient {
 	0% {

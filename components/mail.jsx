@@ -12,7 +12,7 @@ export default function Mail() {
                         <input aria-label="email" aria-required="true" type="email" className="form-control" data-inputmask name="fields[email]" placeholder="Email" autoComplete="email" id={styles.input} required={true} />
                   <input type="hidden" name="ml-submit" defaultValue={1} />
                     <button type="submit" className="primary gradBack" id={styles.button1}>Subscribe</button>
-                    <button disabled="disabled" style={{ display: 'none' }} type="button" className="loading" id={styles.button2}> <div className="ml-form-embedSubmitLoad" /> <span className="sr-only">Loading...</span> </button>
+                    <button disabled="disabled" style={{ display: 'none' }} type="button" className="loading gradBack" id={styles.button2}> <div className="ml-form-embedSubmitLoad" /> <span className="sr-only">Loading...</span> </button>
                   <input type="hidden" name="anticsrf" defaultValue="true" />
                 </form>
               </div>

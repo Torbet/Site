@@ -28,14 +28,14 @@ export default function SignUp() {
                   <input type="hidden" name="ml-submit" defaultValue={1} />
                   <div className="ml-form-embedSubmit">
                     <button type="submit" className="primary gradBack">Subscribe</button>
-                    <button disabled="disabled" style={{ display: 'none' }} type="button" className="loading"> <div className="ml-form-embedSubmitLoad" /> <span className="sr-only">Loading...</span> </button>
+                    <button disabled="disabled" style={{ display: 'none' }} type="button" className="loading gradBack"> <div className="ml-form-embedSubmitLoad" /> <span className="sr-only">Loading...</span> </button>
                   </div>
                   <input type="hidden" name="anticsrf" defaultValue="true" />
                 </form>
               </div>
               <div className="ml-form-successBody row-success" style={{ display: 'none' }}>
                 <div className="ml-form-successContent">
-                  <h4>Thank you!</h4>
+                  <h4 className="gradText">Thank you!</h4>
                   <p>You have successfully joined our subscriber list.</p>
                 </div>
               </div>
