@@ -1,4 +1,3 @@
-import React from "react"
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import theme from 'react-syntax-highlighter/dist/cjs/styles/hljs/atom-one-dark';
 

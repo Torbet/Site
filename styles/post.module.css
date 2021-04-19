@@ -37,13 +37,10 @@
     color: #444;
 }
 
-#post {
-    word-wrap: break-word;
-}
-
 #post p {
     font-size: 1.3rem;
     margin: 1em 0;
+    word-wrap: break-word;
 }
 
 #post li {
@@ -51,7 +48,7 @@
     font-size: 1.3rem;
     line-height: 1.4;
     list-style-position: inside;
-
+    word-wrap: break-word;
     
 }
 
