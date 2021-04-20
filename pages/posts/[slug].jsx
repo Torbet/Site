@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown'
 import PostLayout from '../../layouts/postlayout'
 
 import CodeBlock from "../../components/codeblock";
-import Img from '../../components/image'
+import Image from '../../components/image'
 
 import { formatDate, getPostBySlug, getPosts } from '../../api/index'
 
@@ -14,7 +14,7 @@ function Post(props) {
     return (
         <article>
             <PostLayout title={props.title} date={formatDate(props.date)} description={props.description}>
-                <ReactMarkdown children={props.content} renderers={{ code: CodeBlock, image: Img }} />
+                <ReactMarkdown children={props.content} renderers={{ code: CodeBlock, image: Image }} />
             </PostLayout>
         </article>
     )
