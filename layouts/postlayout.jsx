@@ -1,10 +1,10 @@
 import styles from '../styles/post.module.css'
-import Head from 'next/head'
 
 import { useEffect } from "react"
 import { Gradient } from "../api/gradient"
 
 import Mail from "../components/mail"
+import Meta from '../components/meta'
 
 import { useRouter } from 'next/router'
 
@@ -19,21 +19,7 @@ export default function Post(props) {
 
     return(
         <main>
-             <Head>
-                <title>{`${props.title} | Guy Torbet`}</title>
-                <meta name='description' content={props.description} />
-                <meta property="og:title" content={`${props.title} | Guy Torbet`} />
-                <meta property="og:description" content={props.description} />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta charSet="utf-8" />
-
-                <meta name="twitter:card" content="summary" />
-                <meta name="twitter:site" content="@guytorbet" />
-                <meta name="twitter:title" content={props.title} />
-                <meta name="twitter:description" content={props.description} />
-                <meta name="twitter:image" content="https://torbet.co/profile.jpg" />
-            </Head>
-
+             <Meta title={props.title} description={props.description} />
             <article id={styles.content}>
                 <canvas id={styles.back} onClick={() => { router.push("/") }}></canvas>
                 <div id={styles.head}>
