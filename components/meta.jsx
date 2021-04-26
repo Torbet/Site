@@ -32,6 +32,18 @@ const Meta = (props) => (
     <meta name="twitter:title" content={`${props.title} | Guy Torbet`} />
     <meta name="twitter:description" content={props.description} />
 
+    <script type="application/ld+json">{`
+                    {
+                    "@context":"https://schema.org/",
+                    "@type":"Organization",
+                    "name":"Guy Torbet",
+                    "image":"https://torbet.co/favicon.ico",
+                    "logo":"https://torbet.co/favicon.ico",
+                    "url": "https://torbet.co"
+                    }
+                    `}
+    </script>
+
   </Head>
 );
 
