@@ -25,7 +25,6 @@ export async function getPosts() {
         const content = await import(`../posts/${post}`);
         const meta = matter(content.default)
         posts.push({
-            slug: post.replace('.md',''),
             title: meta.data.title,
             date: meta.data.date,
             description: meta.data.description,
