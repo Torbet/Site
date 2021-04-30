@@ -3,6 +3,7 @@ import Default from '../layouts/default'
 import { getPosts } from '../api/index'
 import Posts from '../components/posts'
 
+
 export default function Landing(props) {
     return(
         <Default title='Guy Torbet'>
