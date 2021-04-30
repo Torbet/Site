@@ -28,6 +28,7 @@ export async function getPosts() {
             title: meta.data.title,
             date: meta.data.date,
             description: meta.data.description,
+            slug: post.replace('.md','')
         })
     }
     var sorted = posts.sort((a, b) => getDate(b.date) - getDate(a.date))
