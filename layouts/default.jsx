@@ -36,7 +36,7 @@ export default function Default(props) {
                     <Mail/>
                     <div id={styles.links}>
                         <Link href="https://github.com/torbet"><FaGithub className={styles.icon} /></Link>
-                        <Link href="https://twitter.com/"><FaTwitter className={styles.icon} /></Link>
+                        <Link href="https://twitter.com/guytorbet"><FaTwitter className={styles.icon} /></Link>
                         <Link href="https://instagram.com/guytorbet"><FaInstagram className={styles.icon} /></Link>
                         <Link href="mailto:guy@torbet.co"><FaInbox className={styles.icon} /></Link>
                     </div>
