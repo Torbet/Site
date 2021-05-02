@@ -24,9 +24,9 @@ const Meta = (props) => (
       content="Guy Torbet Developer React Lighthouse Crypto Cryptocurrency Guides Productivity Help Lessons"
     />
 
-    <meta key="ogImage" property="og:image" content="/profile.jpg" />
+    <meta key="ogImage" property="og:image" content="https://torbet.co/profile.jpg" />
     <meta key="ogUrl" property="og:url" content="https://torbet.co" />
-    <meta key="twitterImage" property="twitter:image" content="/profile.jpg" />
+    <meta key="twitterImage" property="twitter:image" content="https://torbet.co/profile.jpg" />
     <meta key="twitterCard" name="twitter:card" content="summary" />
     <meta key="twitterSite" name="twitter:site" content="@guytorbet" />
     <meta name="twitter:title" content={`${props.title} | Guy Torbet`} />
