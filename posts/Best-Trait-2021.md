@@ -17,7 +17,7 @@ The past 100 years did not reward curiosity. Traditional schools, corporations, 
 
 But the internet has inverted this. Today, it seems that it's the ones who fail to experiment, innovate, or challenge who get left behind....
 
-It doesn’t matter what you are trying to become better at, if you only do the work when you’re "motivated", then you’ll never be consistent enough to become a professional. I've realised, that motivation is a product of action, if you [get stared](https://torbet.co/poshttps://torbet.co/posts/Just-Startts/Just-Start) on a project/ task/ job, you will quickly become motivated to keep going, and to do better.  The ability to show up everyday, stick to the schedule, and do the work — especially when you don’t feel like it — is so valuable that it is literally all you need to become better 99% of the time.
+It doesn’t matter what you are trying to become better at, if you only do the work when you’re "motivated", then you’ll never be consistent enough to become a professional. I've realised, that motivation is a product of action, if you [get started](https://torbet.co/posts/Just-Start) on a project/ task/ job, you will quickly become motivated to keep going, and to do better.  The ability to show up everyday, stick to the schedule, and do the work — especially when you don’t feel like it — is so valuable that it is literally all you need to become better 99% of the time.
 
 When I don’t miss workouts, I get in the best shape of my life. When I code every day, I become a better programmer. When I write every week, I become a better writer. Having the fundamental enjoyment that comes with being an amateur, and the determination and drive that comes with being curious about what you're doing, catalyses this effect 10 fold. 
 
