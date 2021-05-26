@@ -30,7 +30,7 @@ export default function Default(props) {
 
                 <div id={styles.about}>
                     <h1 id={styles.title}>GUY TORBET.</h1>
-                    <p className={styles.subHeading}>I'm a 17 year old Software Developer and Student from Scotland.</p>
+                    <p className={styles.subHeading}>I'm a 18 year old Software Developer and Student from Scotland.</p>
                     <p className={styles.subHeading}>I read a lot online, and make a lot of projects; here I document and summarise the key ideas and insights from my experiences, and hopefully provide some value to you.</p>
                     <p className={styles.subHeading}>I also have an email newsletter, it's a 2-5 minute read every week of high quality tech and productivity content. There's also a <a href="/feed" className="navItem">RSS feed</a> if you're into that.</p>
                     <Mail/>
