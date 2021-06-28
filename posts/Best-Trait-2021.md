@@ -1,7 +1,7 @@
 ---
 title: The Most Valuable Trait in 2021
 date: 01-05-2021
-description: Being and inately curious amateur, and doing stuff for the thrill of it is by far one of the most rewarding and valuable traits in the modern day. Get up, and do what you love!
+description: Being an inately curious amateur, and doing stuff for the thrill of it is by far one of the most rewarding and valuable traits in the modern day. Get up, and do what you love!
 ---
 The word "amateur" has many connotations, beginner, inexperienced, but to me, it’s someone who is doing something for the love of it, and not seeking fame or recognition in return. That’s a huge advantage amateurs have over professionals. They aren’t afraid of experimenting, making mistakes, trying something new. Pick something you WANT to learn, and allow it to consume you.
 
