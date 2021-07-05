@@ -1,7 +1,7 @@
 ---
 title: How I Got Into Every University That I Applied To 
 date: 05-07-2021
-description: Here is how I managed to wriggle into the top university for computer science. How to write a half-decent personal statement and suceed in life!
+description: Here is some advice as to I managed to wriggle into the top university for computer science. How to write a half-decent personal statement and suceed in life!
 ---
 
 This year, before I decided to drop out of high school, I had the opportunity to apply to universities to pursue a degree in computer science. And while it is common knowledge that, on the whole, going to college in this field is a waste of both time and money, if I could secure a full-ride free scholarship, I would get the best of both worlds: a prestigious degree without crippling debt, and to enjoy Scotlands rife teenage drinking culture while I still can.
