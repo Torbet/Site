@@ -1,5 +1,5 @@
 ---
-title: How I Got Into Every University That I Applied For 
+title: How I Got Into Every University That I Applied To 
 date: 05-07-2021
 description: Here is how I managed to wriggle into the top university for computer science. How to write a half-decent personal statement and suceed in life!
 ---
